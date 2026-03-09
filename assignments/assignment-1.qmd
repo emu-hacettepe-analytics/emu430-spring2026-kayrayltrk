@@ -123,6 +123,6 @@ anyNA(new_data)
 
 ```
 
-anyNa=False show that there is no more NA variable left in new data
+anyNa=False show that there is no more "NA" value left in new data.
 
 ---
