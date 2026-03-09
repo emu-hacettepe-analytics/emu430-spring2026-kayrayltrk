@@ -5,26 +5,28 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+None
 
-2.  Firm yyy, position yyy, year yyy
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  ESEN S??STEM Integration, Quality Management Systems Intern, 08/2025-09/2025
 
-2.  Firm bbb, position yyy, year yyy
 
 # Projects
+EMU-405 Graduation Project-Optimization of Production Scheduling in Industrial Kitchen Equipment
+Manufacturing Using Genetic Algorithms
+Akbank Case Maratonu-Finadvisor
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, AutoCad
 
 # Hobbies
+Motorcycle sports, DJ, Travelling
