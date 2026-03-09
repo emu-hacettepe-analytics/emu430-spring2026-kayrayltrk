@@ -32,7 +32,8 @@ R, Quarto, Git, Python, AutoCad
 Motorcycle sports, DJ, Travelling
 
 <p>
-You can download my CV here:
+
+# You can download my CV here:
 
 <a href="cv.pdf" target="_blank">Download my CV</a>
 </p>
