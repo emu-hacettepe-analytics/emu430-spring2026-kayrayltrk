@@ -22,11 +22,11 @@ Overfitting occurs when a model performs very well on patterns it is optimized f
 
 Multiple Choice Question:
 Which one is not a step in Typical Data Science Workflow?
-A)Problem Definition(Formulation)
-B)Data Collection and Preparation
-C)Model Building and Algorithms
-D)Production(Action) and Live Performance
-E)Prediction Generation Without Model Training
+A)Problem Definition(Formulation) <br>
+B)Data Collection and Preparation <br>
+C)Model Building and Algorithms <br>
+D)Production(Action) and Live Performance <br>
+E)Prediction Generation Without Model  Training<br>
 
 Answer: E
 
