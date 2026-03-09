@@ -13,20 +13,20 @@ sidebar: false
 
 None
 
-
 ## Internships
 
-1.  ESEN S??STEM Integration, Quality Management Systems Intern, 08/2025-09/2025
-
+1.  ESEN SYSTEM Integration, Quality Management Systems Intern, 08/2025-09/2025
 
 # Projects
-EMU-405 Graduation Project-Optimization of Production Scheduling in Industrial Kitchen Equipment
-Manufacturing Using Genetic Algorithms
-Akbank Case Maratonu-Finadvisor
+
+EMU-405 Graduation Project-Optimization of Production Scheduling in Industrial Kitchen Equipment Manufacturing Using Genetic 
+
+Algorithms Akbank Case Maratonu-Finadvisor
 
 # Competencies
 
 R, Quarto, Git, Python, AutoCad
 
 # Hobbies
+
 Motorcycle sports, DJ, Travelling
