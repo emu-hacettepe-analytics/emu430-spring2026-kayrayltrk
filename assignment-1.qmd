@@ -6,7 +6,7 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-# (a) Choose a video from one of the following sources and provide a brief summary in your Quarto document:
+## (a) Choose a video from one of the following sources and provide a brief summary in your Quarto document:
 
 I chose "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler -Kerem Demirtaş & Erdi Daşdemir" because Kerem Demirtaş is from Adana like me.
 
@@ -30,99 +30,14 @@ E)Prediction Generation Without Model  Training<br>
 
 Answer: E
 
----
 
-# (b)Complete the following tasks. Be sure to include the R code used to generate these outputs.
+## (b)Complete the following tasks. Be sure to include the R code used to generate these outputs.
 Import the polls_us_election_2016 data set from the dslabs package
 ```{r}
 #install.packages("dslabs")
 ```
-
 I opened the dslabs with the library command in my script.
-
 ```{r}
 library(dslabs)
-data("polls_us_election_2016")
-data <- polls_us_election_2016
 ```
 
-I defined the following two variables my name and birth year
-
-```{r}
-my_first <- "Kayra"        
-my_birth_year <- 2003
-```
-
-I defined an integer k as follow
- 
-```{r}
-k <- (nchar(my_first) + my_birth_year) %% 15 + 8
-k
-```
-
-I displayed k rows of the original data set on my web page using this rule: If k is even, display the first k rows (head(data, k)). If k is odd, display the last k rows (tail(data, k)).
-
-```{r}
-if (k %% 2 == 0) {
-  head(data, k)
-} else {
-  tail(data, k)
-}
-```
-
- I calculated missing NA values(got help from claude)
-
-```{r}
-sum(is.na(data))
-na_per_col <- sort(colSums(is.na(data)),decreasing = TRUE)
-head(na_per_col, 8)
-```
-
- I  replaced all NA values in the data set as follows and store the result as a new object(got help from claude)
-
-```{r}
-new_data <- data
-
-for (col in names(new_data)) {
-
-  if (is.numeric(new_data[[col]])) {
-    new_data[[col]][is.na(new_data[[col]])] <- my_birth_year + k
-
-  } else if (inherits(new_data[[col]], "Date")) {
-    new_data[[col]][is.na(new_data[[col]])] <- as.Date("2002-01-19")
-
-  } else if (is.factor(new_data[[col]])) {
-    new_data[[col]] <- as.character(new_data[[col]])
-    new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
-
-  } else if (is.character(new_data[[col]])) {
-    new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
-  }
-
-}
-```
-
-
-```{r}
-if (k %% 2 == 0) {
-  head(new_data, k)
-} else {
-  tail(new_data, k)
-}
-```
-
-I calculated total number of remaining NA values
-```{r}
-
-sum(is.na(new_data))
-```
-
-```{r}
-
-anyNA(new_data)
-
-```
-
-anyNa=False show that there is no more NA variable left in new data
-
----
